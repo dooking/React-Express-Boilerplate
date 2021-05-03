@@ -8,8 +8,10 @@
   ],
   "rules": {
     "prettier/prettier": [
-      "error"
-    ],
-    "react/jsx-filename-extension": 0
+      "error",
+      {
+        "endOfLine": "auto"
+      }
+    ]
   }
 }
